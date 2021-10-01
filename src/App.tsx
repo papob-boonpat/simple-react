@@ -11,8 +11,6 @@ function App() {
         onClick={() => {
           axiosInstance.get("/aaa").then((res) => {
             console.log(res);
-
-            console.log("yeahhhh");
           });
         }}
       >
